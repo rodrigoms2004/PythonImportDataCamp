@@ -1,0 +1,60 @@
+Flat files: Text, CSV
+
+Excel spreadsheets
+SAS
+Stata files
+HDF5 files
+
+Pickled files
+File type native to Python
+Motivation: many datatypes for which it it isn't
+OBS: JSON is good for Python dictionaries
+Pickled files are serialized
+Serialize = convert object to bytestream
+
+SAS and Stata files
+
+SAS: Statistical Analysis System
+Stata: "Statistics" + "data"
+
+SAS: business analytics and biostatistics
+Stata: academic social sciences research
+
+SAS Files:
+    Used for:
+        Advanced analytics, 
+        Multivariate analysis, 
+        Business intelligence, 
+        Data management, 
+        Predictive analytics
+    Standard for computational analysis
+
+.sas7bdat   dataset files
+.sas7bcat   catalog files
+
+https://github.com/wblakecannon/DataCamp/blob/master/05-importing-data-in-python-(part-1)/_datasets/disarea.dta
+
+HDF5 Files
+    Hierarchical Data Format version 5
+    Standard for storing large quantities of numerical data
+    Datasets can be hundreds of gigabytes or terabytes
+    HDF5 can scale to exabytes
+
+The HDF Project 
+    Actively maintained by the HDF Group (The HDF Group)
+    Based in Champaign, Illinois
+
+Matlab
+    "Matrix Laboratory"
+    Industry standard in engineering and science
+    Data saved as .mat files
+    
+    Python dictionary keys      = MATLAB variable names
+    Python dictionary values    = MATLAB objects assigned to variables
+
+Use the method .keys() on the dictionary mat to print the keys. 
+Most of these keys (in fact the ones that do NOT begin and end with '__') 
+are variables from the corresponding MATLAB environment.
+
+https://s3.amazonaws.com/assets.datacamp.com/production/course_1607/slides/ch2_pdf_slides.pdf
+

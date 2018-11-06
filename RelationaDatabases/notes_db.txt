@@ -1,0 +1,30 @@
+Relational model od data, first described by Edgar "Ted" Codd
+
+Northwind Database
+    Orders table
+    Customers table
+    Employees table
+
+    12 rules, or 13 rules (zero-indexed!)
+
+PostgreSQL MySQL SQLite
+SQL = Structured Query Language
+
+SQLite database, Fast and simple
+
+SQLAlquemy
+    Works with many Relational Database Management Systems
+
+Query Database
+
+Workflow of SQL querying
+    Import packages and functions
+    Create the database engine
+    Connect to the engine
+    Query the database
+    Save query results to a DataFrame
+    Close the connection
+
+
+The pandas way to query
+    df = pd.read_sql_query("SELECT * FROM Orders", engine)
