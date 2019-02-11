@@ -1,0 +1,6 @@
+The urllib package
+
+urlopen() - accepts URLs instead of file names
+
+
+https://archive.ics.uci.edu/ml/index.php
