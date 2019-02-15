@@ -1,0 +1,5 @@
+{
+	"name"   : "Snake",
+	"script" : "snake.py",
+	"args" : "args"
+}
