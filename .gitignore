@@ -1,2 +1,4 @@
 Northwind_large.sqlite
 api_keys.json
+__pycache__
+twitter_keys.json
